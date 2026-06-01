@@ -1,0 +1,58 @@
+cv:
+  name: Wen-Hsi Kuo
+  label: Conservation genomics | Plant evolutionary biology | Population genetics
+  email: your.email@example.edu
+  location: City, State
+  image: ""
+  summary: >
+    Add a concise professional summary here: current position, institution,
+    focal plant systems, methods, and research interests.
+
+  social_networks:
+    - network: GitHub
+      username: kuowenhsi
+
+  sections:
+    Education:
+      - institution: Your Institution
+        location: City, State
+        area: Plant biology / evolutionary biology / genomics
+        studyType: Degree
+        start_date: YYYY
+        end_date: YYYY
+        highlights:
+          - Add advisor, dissertation title, or relevant focus.
+
+    Experience:
+      - company: Your Department, Your Institution
+        position: Your Position
+        location: City, State
+        start_date: YYYY
+        end_date: present
+        highlights:
+          - Add research, teaching, fieldwork, or computational responsibilities.
+
+    Research Interests:
+      - name: Conservation genomics
+        keywords: rare plants, genetic diversity, population structure, management
+      - name: Plant evolutionary biology
+        keywords: phylogeography, diversification, systematics
+      - name: Population genetics
+        keywords: gene flow, demographic history, landscape genetics
+
+    Publications:
+      - title: Add your publication title here
+        authors:
+          - Wen-Hsi Kuo
+          - Coauthor Name
+        publisher: Journal Name
+        releaseDate: 2026
+        summary: Replace this entry with your real publications or remove this section.
+
+    Teaching:
+      - institution: Your Institution
+        position: Instructor / Teaching Assistant / Mentor
+        start_date: YYYY
+        end_date: YYYY
+        highlights:
+          - Add courses, workshops, field training, or mentoring.
