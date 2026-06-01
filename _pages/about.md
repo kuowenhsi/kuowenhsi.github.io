@@ -6,12 +6,14 @@ subtitle: Conservation genomics | Plant evolutionary biology | Population geneti
 
 profile:
   align: right
-  image: research-header.png
+  image: wen-hsi-kuo-portrait.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Your Department, Your Institution</p>
-    <p>City, State</p>
-    <p><a href="mailto:your.email@example.edu">your.email@example.edu</a></p>
+    <p>Conservation Genomics Postdoctoral Fellow</p>
+    <p>Missouri Botanical Garden</p>
+    <p>Center for Conservation and Sustainable Development</p>
+    <p><a href="mailto:wkuo@mobot.org">wkuo@mobot.org</a></p>
+    <p>ORCID: <a href="https://orcid.org/0000-0003-4680-1105">0000-0003-4680-1105</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +29,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I study how genetic diversity, evolutionary history, and landscape processes shape plant populations, with an emphasis on conservation applications.
+I am a plant evolutionary biologist and population geneticist interested in how selection, gene flow, drift, and demographic history shape species distributions, local adaptation, and interactions with changing environments.
 
-My work sits at the intersection of conservation genomics, plant evolutionary biology, and population genetics. I am interested in using field collections, genomic data, and reproducible computational workflows to understand population structure, gene flow, demographic history, and the evolutionary context of rare or threatened plant lineages.
+My current postdoctoral work at the Missouri Botanical Garden uses population-scale sampling, whole-genome sequencing, and common-garden experiments to guide conservation of rare plants in fragmented landscapes. I quantify population structure, demographic history, connectivity, genetic load, and the genetic basis of local adaptation in endangered plant systems, including floodplain specialists such as *Boltonia decurrens*.
 
-This site is set up as an al-folio academic homepage. Replace this paragraph with your current position, focal systems, methods, collaborations, and the research questions that organize your work.
+My PhD research at Washington University in St. Louis used white clover (*Trifolium repens*) to understand local adaptation, gene regulation, copy-number variation, and trait evolution in a widely distributed allopolyploid. Across rare, common, and invasive systems, I use genomic, phenotypic, environmental, and geospatial data to produce decision-relevant inference for biodiversity conservation.

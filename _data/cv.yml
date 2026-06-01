@@ -1,58 +1,115 @@
 cv:
   name: Wen-Hsi Kuo
-  label: Conservation genomics | Plant evolutionary biology | Population genetics
-  email: your.email@example.edu
-  location: City, State
+  label: Conservation Genomics Postdoctoral Fellow
+  email: wkuo@mobot.org
+  location: St. Louis, Missouri, USA
   image: ""
   summary: >
-    Add a concise professional summary here: current position, institution,
-    focal plant systems, methods, and research interests.
+    Plant evolutionary biologist and population geneticist using population
+    genomics, quantitative phenotyping, common gardens, and geospatial data to
+    study local adaptation, conservation genetics, and biodiversity persistence.
 
   social_networks:
     - network: GitHub
       username: kuowenhsi
+    - network: ORCID
+      username: 0000-0003-4680-1105
 
   sections:
-    Education:
-      - institution: Your Institution
-        location: City, State
-        area: Plant biology / evolutionary biology / genomics
-        studyType: Degree
-        start_date: YYYY
-        end_date: YYYY
-        highlights:
-          - Add advisor, dissertation title, or relevant focus.
-
     Experience:
-      - company: Your Department, Your Institution
-        position: Your Position
-        location: City, State
-        start_date: YYYY
+      - company: Missouri Botanical Garden, Center for Conservation and Sustainable Development
+        position: Conservation Genomics Postdoctoral Fellow
+        location: St. Louis, MO, USA
+        start_date: 2024
         end_date: present
-        highlights:
-          - Add research, teaching, fieldwork, or computational responsibilities.
+      - company: Biodiversity Research Center, Academia Sinica
+        position: Research Assistant
+        location: Taiwan
+        start_date: 2016
+        end_date: 2018
 
-    Research Interests:
+    Education:
+      - institution: Washington University in St. Louis, Department of Biomedical and Biological Sciences
+        area: Ecology and Evolution
+        studyType: Ph.D.
+        location: St. Louis, MO, USA
+        start_date: 2018
+        end_date: 2024
+      - institution: National Taiwan University, Institute of Ecology and Evolution
+        area: Ecology and Evolution
+        studyType: M.S.
+        location: Taipei, Taiwan
+        start_date: 2012
+        end_date: 2015
+      - institution: National Taiwan University, Department of Life Science
+        area: Life Science
+        studyType: B.S.
+        location: Taipei, Taiwan
+        start_date: 2008
+        end_date: 2012
+
+    Interests:
       - name: Conservation genomics
-        keywords: rare plants, genetic diversity, population structure, management
+        keywords:
+          - rare plants
+          - genetic diversity
+          - population structure
+          - genetic load
+          - management units
+      - name: Local adaptation
+        keywords:
+          - elevational gradients
+          - genotype-by-environment variation
+          - quantitative phenotyping
+          - landscape genomics
+      - name: Invasion biology
+        keywords:
+          - invasive plants
+          - introduction history
+          - dispersal corridors
+          - genetic monitoring
+          - restoration
       - name: Plant evolutionary biology
-        keywords: phylogeography, diversification, systematics
-      - name: Population genetics
-        keywords: gene flow, demographic history, landscape genetics
+        keywords:
+          - polyploidy
+          - copy-number variation
+          - trait evolution
+          - phylogenomics
 
-    Publications:
-      - title: Add your publication title here
-        authors:
-          - Wen-Hsi Kuo
-          - Coauthor Name
-        publisher: Journal Name
-        releaseDate: 2026
-        summary: Replace this entry with your real publications or remove this section.
+    Awards:
+      - title: Postdoctoral Fellowship
+        awarder: Missouri Botanical Garden
+        date: 2024-2026
+        summary: Salary support, USD 106K.
+      - title: Botanical Society of America Hardship Travel Award
+        date: 2025
+        summary: USD 1,400.
+      - title: William H. Danforth Plant Sciences Fellowship
+        date: 2019-2023
+        summary: Stipend and research funding, USD 130K.
+      - title: Ministry of Education Studying Abroad Scholarship
+        date: 2021-2022
+        summary: Research funding, USD 32K.
+      - title: NIGINTERN Program Fellowship
+        awarder: National Institute of Genetics, Japan
+        date: 2011
+        summary: USD 2,260.
 
     Teaching:
-      - institution: Your Institution
-        position: Instructor / Teaching Assistant / Mentor
-        start_date: YYYY
-        end_date: YYYY
-        highlights:
-          - Add courses, workshops, field training, or mentoring.
+      - bullet: "Evolutionary Biology, Discussion Instructor and Teaching Assistant, Washington University in St. Louis, 2019 and 2023."
+      - bullet: "General Biology, Teaching Assistant, National Taiwan University, 2013-2014."
+      - bullet: "Botany Lab, Instructor and Teaching Assistant, National Taiwan University, 2012-2013."
+
+    Mentorship:
+      - bullet: "Mentored 17 undergraduate, graduate, and intern researchers in Taiwan and the United States."
+      - bullet: "Mentees contributed to peer-reviewed publications in Annals of Botany, Frontiers in Plant Science, and Plant Cell, Tissue and Organ Culture."
+      - bullet: "Current and recent mentees at the Missouri Botanical Garden include Maia Jones, Ethan Coble, Megan Connor, Maia Washington, and Sage Waite."
+      - bullet: "Mentored students at Washington University in St. Louis, National Taiwan University, and Academia Sinica."
+
+    Selected Presentations:
+      - bullet: "Invited seminars at National Taiwan University and Washington University in St. Louis."
+      - bullet: "Conference contributions at St. Louis Ecology / Evolution / Conservation, Botanical Society of America Botany Conference, Center for Plant Conservation National Meeting, MBG Informatics Symposium, Taiwan-Japan Plant Biology Conference, and Taiwan Society of Plant Biologists."
+
+    Service:
+      - bullet: "Manuscript referee for Journal of Heredity, Environmental and Experimental Botany, Molecular Ecology, PeerJ, PLOS ONE, and BMC Plant Biology."
+      - bullet: "Organizer and host for the Washington University EEPB Seminar Series in 2022."
