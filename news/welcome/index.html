@@ -34,7 +34,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Curriculum vitae for Wen-Hsi Kuo.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -51,22 +51,37 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-conservation-genomics",
           title: 'Conservation genomics',
-          description: "Population genomic approaches for plant conservation.",
+          description: "Genomic evidence for endangered plant conservation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/conservation-genomics/";
             },},{id: "projects-plant-evolutionary-biology",
           title: 'Plant evolutionary biology',
-          description: "Evolutionary history, geography, and diversification in plant systems.",
+          description: "Local adaptation, trait evolution, and genomic architecture.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/plant-evolution/";
-            },},{id: "projects-population-genetics",
-          title: 'Population genetics',
-          description: "Gene flow, connectivity, and population history.",
+            },},{id: "projects-population-genetics-and-invasion-biology",
+          title: 'Population genetics and invasion biology',
+          description: "Gene flow, spread, adaptation, and management.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/population-genetics/";
+            },},{id: "teachings-conservation-genetics",
+          title: 'Conservation Genetics',
+          description: "Population genetics and genomics for conservation practice.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/conservation-genetics/";
+            },},{id: "teachings-evolutionary-biology-journal-club",
+          title: 'Evolutionary Biology Journal Club',
+          description: "Structured discussion of evolutionary biology literature.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/evolutionary-biology-journal-club/";
+            },},{id: "teachings-people-plants-and-food",
+          title: 'People, Plants, and Food',
+          description: "Crop evolution, domestication, agrobiodiversity, and sustainability.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/people-plants-food/";
             },},{id: "teachings-teaching-and-mentoring",
           title: 'Teaching and mentoring',
-          description: "Courses, workshops, field training, and student mentoring.",
+          description: "Teaching philosophy, classroom practice, and research mentorship.",
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/teaching-and-mentoring/";
             },},{
@@ -74,7 +89,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75%72.%65%6D%61%69%6C@%65%78%61%6D%70%6C%65.%65%64%75", "_blank");
+          window.open("mailto:%77%6B%75%6F@%6D%6F%62%6F%74.%6F%72%67", "_blank");
         },
       },{
         id: 'social-rss',
@@ -89,6 +104,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/kuowenhsi", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0003-4680-1105", "_blank");
         },
       },{
       id: 'light-theme',
