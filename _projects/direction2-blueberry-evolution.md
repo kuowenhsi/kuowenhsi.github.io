@@ -8,6 +8,7 @@ image_width: 1024
 image_height: 669
 importance: 2
 category: research
+research_group: future
 _styles: |
   @import url("/assets/css/research.css");
 ---
@@ -47,5 +48,5 @@ _styles: |
 <p>If climate-associated variants shift through time more than neutral variation in the same localities, the result would support recent selection as a hypothesis. Population history, structure, and gene flow will be considered when interpreting those shifts.</p>
 <div class="research-note"><h3>The goal</h3><p>Test whether wild blueberry populations show genetic changes consistent with adaptation to recent climate change, while identifying variation that may support conservation and future crop improvement.</p></div>
 </section>
-<nav class="research-jump research-footer" aria-label="More research"><a href="{{ '/projects/direction1-population-history/' | relative_url }}">← Direction 1: Local adaptation</a><a href="{{ '/projects/' | relative_url }}">All research →</a></nav>
+<nav class="research-jump research-footer" aria-label="More research"><a href="{{ '/projects/direction1-population-history/' | relative_url }}">← Direction 1: Local adaptation</a><a href="{{ '/future-research/' | relative_url }}">Future Research Plans →</a></nav>
 </div>

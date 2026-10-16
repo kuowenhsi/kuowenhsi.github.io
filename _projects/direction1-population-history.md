@@ -8,6 +8,7 @@ image_width: 1280
 image_height: 853
 importance: 1
 category: research
+research_group: future
 _styles: |
   @import url("/assets/css/research.css");
 ---
@@ -46,5 +47,5 @@ _styles: |
 <p>Crosses within and among isolated populations can test whether new genetic combinations improve offspring performance or disrupt adaptation. Where field data are sufficient, survival and reproduction estimates will also reveal consequences for population growth.</p>
 <div class="research-note"><h3>The goal</h3><p>Explain when restricted populations retain adaptive capacity, and when their evolutionary history limits it. This evidence can inform conservation decisions about connectivity and genetic rescue.</p></div>
 </section>
-<nav class="research-jump research-footer" aria-label="More research"><a href="{{ '/projects/' | relative_url }}">← All research</a><a href="{{ '/projects/direction2-blueberry-evolution/' | relative_url }}">Direction 2: Evolution through time →</a></nav>
+<nav class="research-jump research-footer" aria-label="More research"><a href="{{ '/future-research/' | relative_url }}">← Future Research Plans</a><a href="{{ '/projects/direction2-blueberry-evolution/' | relative_url }}">Direction 2: Evolution through time →</a></nav>
 </div>

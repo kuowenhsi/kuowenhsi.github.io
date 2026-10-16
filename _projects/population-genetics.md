@@ -5,6 +5,7 @@ description: Gene flow, spread, adaptation, and management.
 img: assets/img/research-header.png
 importance: 6
 category: research
+research_group: current_previous
 ---
 
 Population genetic data can reveal how plant populations move, persist, and respond to management. I use population structure, demographic inference, gene flow, and genotype-environment analyses to understand both conservation problems and invasion dynamics.
@@ -12,3 +13,5 @@ Population genetic data can reveal how plant populations move, persist, and resp
 For invasive species, I am interested in using genomic and functional trait information to reconstruct introduction history, identify dispersal corridors, detect rapid adaptation, and monitor whether management reduces effective population size. These approaches can help move invasive populations toward thresholds where rebound becomes less likely.
 
 Future focal systems include major plant invaders in Taiwan, such as *Leucaena leucocephala* and *Mikania micrantha*. By pairing population genomics with common-garden and competition experiments, this work can identify when invaders outcompete native species and which restoration actions most effectively rebuild native community resistance.
+
+<nav class="research-jump research-footer" aria-label="More projects"><a href="{{ "/projects/" | relative_url }}">← Current and Previous Projects</a></nav>

@@ -5,6 +5,7 @@ description: Conservation strategy for the endangered *Physaria globosa* (Brassi
 img: assets/img/crop_IMG_6647.jpeg
 importance: 3
 category: research
+research_group: current_previous
 ---
 
 ## Conservation Questions Around Translocation and Genetic Mixing
@@ -52,3 +53,5 @@ A primary concern associated with translocation and genetic mixing is that local
 </div>
 
 
+
+<nav class="research-jump research-footer" aria-label="More projects"><a href="{{ "/projects/" | relative_url }}">← Current and Previous Projects</a></nav>
