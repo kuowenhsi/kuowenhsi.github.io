@@ -3,7 +3,7 @@ layout: page
 title: Population genetics and invasion biology
 description: Gene flow, spread, adaptation, and management.
 img: assets/img/research-header.png
-importance: 3
+importance: 6
 category: research
 ---
 

@@ -1,0 +1,22 @@
+---
+layout: page
+title: Direction 2 — Testing rapid evolution in wild populations using crop genetics and historical collections
+description: Connecting wild blueberry adaptation, crop genetics, and historical herbarium collections.
+img: assets/img/blueberry-fruit.jpg
+importance: 2
+category: research
+---
+
+![Highbush blueberry plant with ripe and developing fruit.]({{ "/assets/img/blueberry-fruit.jpg" | relative_url }})
+
+Photo: [Darkone](https://commons.wikimedia.org/wiki/File:Vaccinium_corymbosum_Beeren.jpg), [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/). Original image, unchanged.
+
+Can wild plant populations evolve in response to anthropogenic climate change within a century? A recently domesticated native crop offers an unusually tractable way to test this question. Selection during breeding has produced cultivars that differ in flowering time, chilling requirements, and climatic tolerance, demonstrating that the crop gene pool contains heritable variation for environmental responses. Extensive breeding and functional studies also provide candidate genomic regions associated with these traits. I will ask whether variation in these regions is present in wild populations, follows climatic gradients, and has changed in frequency during recent environmental change. This approach uses knowledge from breeding to develop hypotheses about natural evolution rather than assuming that the same alleles have been selected in both settings.
+
+Highbush blueberry (Vaccinium corymbosum) is a potential system. It is an ecologically important native species and a valuable fruit crop distributed across broad climatic gradients in eastern North America. Its recent domestication of just 100 years and the diversity of cultivars make it possible to connect trait variation with known breeding histories and genomic resources. Southern highbush cultivars, for example, were developed in part through crosses with southern Vaccinium relatives to reduce chilling requirements. Because some breeding-associated variants may have come from other species, I will first determine which candidate variants actually exist as natural variation in wild V. corymbosum and whether there is interspecific gene flow before treating them as candidates for natural adaptation.
+
+I will sample wild populations across eastern North America and use whole-genome data to characterize population structure, genetic diversity, demographic history, and gene flow. I will test whether candidate regions associated with chilling requirements, flowering phenology, and climatic tolerance vary across winter-temperature, growing-season, and precipitation gradients while accounting for population structure. Vegetative propagation allows duplication of genotypes and common-garden experiments will evaluate whether specific genetic variation corresponds to phenotypic differences under contrasting conditions. The short-term goal is to document and compare the natural variation and the domesticated variation for the same adaptive traits. The long-term goal is to uncover the genetic mechanism for repeated or convergent evolution under selection, which could be critical factors for plants’ ability to respond to anthropogenic climate change at global scale.
+
+Herbarium collections can then provide historical samples from before or during much of the recent climatic change. The Mid-Atlantic Herbaria Consortium portal lists 8,489 digitized V. corymbosum records with collection dates from 1807 to 2026. I will audit these records to identify localities and time periods with enough specimens for comparison. Historical DNA is often fragmented and difficult to sequence consistently. Rather than assume that whole genomes can be recovered from every specimen, I will pilot targeted sequence capture for the prioritized adaptive regions together with comparison loci that provide a neutral background for demographic change or population structure. If climate-associated candidate variants shift through time more than the neutral loci in well-sampled localities, those results would support recent selection as a hypothesis.
+
+By integrating range-wide natural population sampling, domesticated cultivars, and historical herbarium records, this research will test whether wild blueberry populations show genetic changes consistent with adaptation to recent climate change. It will also identify wild genetic variation that may support the future conservation and improvement of an economically important native crop.

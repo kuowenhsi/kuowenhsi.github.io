@@ -3,7 +3,7 @@ layout: page
 title: Conservation genomics
 description: Genomic evidence for endangered plant conservation.
 img: assets/img/research-header.png
-importance: 1
+importance: 4
 category: research
 ---
 

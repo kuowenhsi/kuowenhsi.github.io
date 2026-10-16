@@ -3,7 +3,7 @@ layout: page
 title: Active Interventions in Plant Conservation? 
 description: Conservation strategy for the endangered *Physaria globosa* (Brassicaceae)
 img: assets/img/crop_IMG_6647.jpeg
-importance: 1
+importance: 3
 category: research
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Plant evolutionary biology
 description: Local adaptation, trait evolution, and genomic architecture.
 img: assets/img/research-header.png
-importance: 2
+importance: 5
 category: research
 ---
 
