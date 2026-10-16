@@ -1,22 +1,50 @@
 ---
 layout: page
-title: Direction 1 — Comparing how population history shapes local adaptation
-description: Population history, connectivity, and adaptive capacity across environmental gradients.
+title: Population history and local adaptation
+description: Why do some isolated plant populations retain the capacity to adapt?
 img: assets/img/mimulus-guttatus.jpg
+image_alt: Yellow Mimulus guttatus flower
+image_width: 1280
+image_height: 853
 importance: 1
 category: research
+_styles: |
+  @import url("/assets/css/research.css");
 ---
 
-![Yellow Mimulus guttatus flowers.]({{ "/assets/img/mimulus-guttatus.jpg" | relative_url }})
-
-Photo: [Eric Johnston](https://commons.wikimedia.org/wiki/File:Mimulus_guttatus.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Resized from the original; this image remains available under the same license.
-
-How do population size, demographic history, standing genetic variation, and gene flow among populations affect a plant's ability to adapt to changing environments? I will use natural gradients in latitude, elevation, temperature, and precipitation to investigate the mechanisms of local adaptation. I will compare related species with contrasting range sizes and population connectivity to test whether drift, inbreeding, and reduced gene flow limit adaptive responses in small, isolated populations, and why some retain trait variation despite these pressures.
-
-One potential system could be native Trifolium species, which provide a promising starting point. North America is one of the genus's centers of diversity, and its species occupy a range of habitats and differ in geographic distribution. My extensive work on white clover (T. repens) provides a foundation in sampling, species delineation, genetic tools, and common garden manipulations. I will identify native Trifolium species with contrasting distributions and comparable life histories for a focused comparison. The other potential system could be the Mimulus species complex, which provides a complementary candidate system with extensive ecological and genomic research. For example, broadly distributed M. guttatus and its Sierra Nevada endemic relative M. laciniatus, which occupies patchy granite seep habitats, offer a possible contrast. In either system, I would compare effective population sizes, gene flow, the strength and pattern of selection, and the genetic mechanisms of local adaptation. I would also account for differences in mating systems and ploidy level when interpreting contrasts among species.
-
-I will use population-scale genomic sampling to reconstruct demographic history, quantify standing variation, and estimate population structure, gene flow, inbreeding, and genetic load. Environmental association analyses will identify candidate genomic variation associated with temperature and water availability while accounting for population structure. I will compare genomic signatures of selection with expectations under each species' demographic history and test whether similar environmental pressures are associated with the same genetic mechanisms or ecophysiological responses. Sampling multiple populations within each species will help me test whether similar environments are associated with repeated adaptive responses, rather than similarities inherited from a common ancestor.
-
-I will connect these genomic patterns to phenotypes and performance. Field observations and common-garden experiments will measure germination, phenology, growth, survival, and reproduction across contrasting moisture and temperature conditions. Reciprocal gardens or controlled stress experiments will provide evidence of local adaptation and ecophysiological data, which can complement the findings from genetic data alone. By relating phenotypes to survival and seed production across sites and treatments, I will estimate the strength and direction of selection on traits such as flowering time and drought response. Association analyses and genetic mapping in crosses, where feasible, will test whether the same genomic regions or different mechanisms underlie adaptive differences within and among the focal species.
-
-In habitat-restricted systems, I will also test whether inbreeding and reduced gene flow limit responses to environmental stress. Crosses within and among populations, where feasible, can reveal whether isolation reduces offspring performance and whether new genetic combinations improve or disrupt it. Where sufficient field data are available, I will use survival and reproductive estimates to examine how environmental change affects population growth. Together, these experiments will identify when restricted populations retain adaptive capacity and when demographic history limits it. The findings may inform conservation, while the central goal is to explain how demography and evolutionary history shape adaptation and persistence.
+<div class="research-page">
+<p class="research-kicker">Direction 1 · Future research</p>
+<p class="research-lead">A population’s past may shape how it responds to tomorrow’s climate.</p>
+<p>I will compare related plants with broad, connected ranges and restricted, patchy distributions to test how population history and gene flow influence adaptation to temperature and water availability.</p>
+<nav class="research-jump" aria-label="On this page"><a href="#systems">Study systems ↓</a><a href="#approach">Research approach ↓</a><a href="#conservation">Conservation relevance ↓</a></nav>
+<figure>
+<img src="{{ '/assets/img/mimulus-guttatus.jpg' | relative_url }}" alt="A yellow Mimulus guttatus flower, one of the candidate species for comparing local adaptation." width="1280" height="853">
+<figcaption><em>Mimulus guttatus</em>, a candidate study species. Photo: <a href="https://commons.wikimedia.org/wiki/File:Mimulus_guttatus.JPG">Eric Johnston</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>. Resized; the image retains this license.</figcaption>
+</figure>
+<section id="systems">
+<h2>Connected landscapes, isolated populations</h2>
+<p>Small populations can lose variation through drift and inbreeding. Yet some retain substantial trait variation. I want to understand when isolation constrains adaptation—and when populations retain the capacity to respond.</p>
+<div class="research-grid">
+<div class="research-panel"><h3>Native clovers</h3><p>North American <em>Trifolium</em> species offer contrasting geographic ranges and habitats. My work on white clover provides a foundation for selecting species with comparable life histories and studying their genetic and phenotypic variation.</p></div>
+<div class="research-panel"><h3>Monkeyflowers</h3><p>Broadly distributed <em>Mimulus guttatus</em> and its Sierra Nevada endemic relative <em>M. laciniatus</em>, found in patchy granite seeps, offer another possible comparison.</p></div>
+</div>
+<p class="research-note">These are candidate systems. Species comparisons will account for differences in mating systems, ploidy, and demographic history.</p>
+</section>
+<section id="approach">
+<h2>Connecting history, traits, and fitness</h2>
+<p>The study will connect three kinds of evidence to distinguish shared ancestry from repeated adaptive responses.</p>
+<ol class="research-steps" aria-label="Research approach">
+<li><span>01 · RECONSTRUCT</span><strong>Population history</strong><p>Use genomic data to estimate population size, connectivity, inbreeding, and standing genetic variation.</p></li>
+<li><span>02 · COMPARE</span><strong>Environmental responses</strong><p>Identify candidate variants associated with temperature and moisture across multiple populations.</p></li>
+<li><span>03 · TEST</span><strong>Traits and fitness</strong><p>Measure flowering, growth, survival, and seed production in common gardens and stress experiments.</p></li>
+</ol>
+<h3>Do similar climates favor similar solutions?</h3>
+<p>Genomic analyses and genetic mapping, where feasible, will test whether related species use the same genomic regions or different mechanisms to adapt. Common-garden and reciprocal-garden experiments will test whether trait differences translate into differences in performance.</p>
+</section>
+<section id="conservation">
+<h2>When could genetic mixing help?</h2>
+<p>Crosses within and among isolated populations can test whether new genetic combinations improve offspring performance or disrupt adaptation. Where field data are sufficient, survival and reproduction estimates will also reveal consequences for population growth.</p>
+<div class="research-note"><h3>The goal</h3><p>Explain when restricted populations retain adaptive capacity, and when their evolutionary history limits it. This evidence can inform conservation decisions about connectivity and genetic rescue.</p></div>
+</section>
+<nav class="research-jump research-footer" aria-label="More research"><a href="{{ '/projects/' | relative_url }}">← All research</a><a href="{{ '/projects/direction2-blueberry-evolution/' | relative_url }}">Direction 2: Evolution through time →</a></nav>
+</div>
