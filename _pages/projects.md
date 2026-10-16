@@ -3,7 +3,7 @@ layout: page
 title: Current and Previous Projects
 permalink: /projects/
 description: Plant adaptation, population genetics, and conservation genomics.
-nav: true
+nav: false
 nav_order: 4
 _styles: |
   @import url("/assets/css/research.css");

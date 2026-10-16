@@ -3,7 +3,7 @@ layout: page
 title: Future Research Plans
 permalink: /future-research/
 description: How plants adapt, persist, and evolve in changing environments.
-nav: true
+nav: false
 nav_order: 3
 _styles: |
   @import url("/assets/css/research.css");
