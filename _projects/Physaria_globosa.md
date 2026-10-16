@@ -1,57 +1,90 @@
 ---
 layout: page
-title: Active Interventions in Plant Conservation? 
-description: Conservation strategy for the endangered *Physaria globosa* (Brassicaceae)
+title: Active Interventions in Plant Conservation?
+description: How regional genetic structure can guide conservation and translocation of endangered globe bladderpod.
 img: assets/img/crop_IMG_6647.jpeg
 importance: 3
 category: research
 research_group: current_previous
+_styles: |
+  @import url("/assets/css/research.css");
+  .physaria-tree { position: relative; width: 100%; aspect-ratio: 1050 / 600; background: white; overflow: hidden; }
+  .research-page .physaria-tree img { position: absolute; width: 57.142857%; max-width: none; height: auto; left: 50%; top: 50%; transform: translate(-50%, -50%) rotate(-90deg); border-radius: 0; }
+  .physaria-climate { display: block; width: 100%; height: 720px; border: 1px solid var(--global-divider-color); border-radius: 12px; }
 ---
 
-## Conservation Questions Around Translocation and Genetic Mixing
+<div class="research-page">
+<section class="research-intro" aria-labelledby="conservation-question">
+<p class="research-kicker">Conservation genetics · Physaria globosa</p>
+<h2 id="conservation-question">When should we move plants—and mix populations?</h2>
+<p class="research-lead">Genetic mixing may help vulnerable populations, but the choice of source populations matters.</p>
+<p>Our range-wide study of endangered globe bladderpod found two major regional genetic groups and uneven genetic vulnerability among populations. The findings support protecting natural populations while using carefully planned translocations to complement habitat conservation.</p>
+</section>
+<nav class="research-jump" aria-label="Project sections"><a href="#species">The species ↓</a><a href="#findings">Key findings ↓</a><a href="#translocations">Lessons from translocations ↓</a><a href="#management">Conservation implications ↓</a></nav>
 
-Conservation strategies for rare plant species often span a continuum: from **protecting and reconnecting existing populations** to more interventionist approaches, such as **translocation** and **genetic mixing**.
+<section id="species">
+<h2>A rare plant of rocky river bluffs</h2>
+<p><em>Physaria globosa</em> is a federally endangered mustard found in separated river systems in Indiana, Kentucky, and Tennessee. It grows on rocky bluffs and steep slopes, often on calcareous substrates, and produces yellow spring flowers followed by rounded fruits.</p>
+<p>Habitat degradation, erosion, and encroachment by woody plants—including invasive shrubs—threaten these populations. Their scattered distribution raises a practical question: should conservation maintain regional differences, restore connectivity, or do both?</p>
+<figure>
+<img src="{{ '/assets/img/physaria-figure1-habitat.jpg' | relative_url }}" alt="Flowering Physaria globosa growing in crevices on a layered rocky bluff." loading="lazy">
+<figcaption><strong>Figure 1A · Life on a rocky bluff.</strong> The manuscript's native-habitat photograph shows the steep, rocky setting occupied by <em>P. globosa</em>. Such habitats can make monitoring, seed collection, and management difficult.</figcaption>
+</figure>
+<h3>A range-wide genetic assessment</h3>
+<ol class="research-steps" aria-label="Study at a glance">
+<li><span>332 PLANTS</span><strong>Sampled across the range</strong><p>We examined populations in Indiana, Kentucky, and eastern and western Tennessee.</p></li>
+<li><span>16 POPULATIONS</span><strong>Natural and translocated</strong><p>The study included 14 natural populations and two populations established through translocation.</p></li>
+<li><span>20 MICROSATELLITE LOCI</span><strong>Tracing genetic variation</strong><p>We assessed population structure, genetic diversity, inbreeding, bottlenecks, and mixed ancestry.</p></li>
+</ol>
+</section>
 
-These interventions raise several important questions in conservation genetics:
-
-- **Do disjunct populations represent distinct historical or adaptive lineages** that should be protected separately?
-- **When does the risk of inaction exceed the risk of admixture?**
-- **Can managed *ex situ* populations capture enough genetic diversity** to support reintroduction or reinforcement?
-- **How much genetic or ecological divergence among source populations is acceptable?**
-
-## Potential Risks
-
-Translocation and genetic mixing can provide important conservation benefits, but they also carry potential risks, including:
-
-- **Outbreeding depression**
-- **Disruption of local adaptation**
-- **Generation of maladapted genotypes**
-- **Demographic swamping of small recipient populations**
-- **Introduction of new deleterious mutations**
-
-These risks do not necessarily preclude intervention. Instead, they highlight the need for a clear **biological and demographic rationale**, careful evaluation of risks to both **source and recipient populations**, and long-term **post-release genetic monitoring** to assess conservation outcomes.
-
-## Physaria globosa as a Good System to Study the Effect of Translocation and Genetic Mixing
-
-Physaria globosa is a member of the mustard family (Brassicaceae). It is morphologically distinct from other eastern U.S. Physaria species, which are annuals with fibrous roots, whereas P. globosa is biennial or perennial and often has a woody caudex (Flora of North America, 2010). Plants may produce multiple stems and grow up to 50 cm tall. Small yellow flowers are produced in April and May and are pollinated primarily by small insects (Krosnick et al., 2022). In June and July, the species produces distinctive globular fruits that give bladderpods their common name. Seeds are thought to be dispersed by water and gravity along the rivers (Long et al., 2021).
-
-## Monthly Climatic Difference among *Physaria globosa* Populations
-
-A primary concern associated with translocation and genetic mixing is that local populations may be adapted to their respective climatic environments. If such local adaptation exists, moving individuals among populations or promoting admixture among divergent lineages could reduce fitness by generating intermediate or maladapted phenotypes that are mismatched to local environmental conditions. Therefore, it is important to characterize climatic differences among source and recipient populations across the growing season and to identify potential abiotic stresses that may impose spatially variable selection.
-
-[Open the app in a new tab](https://kuowenhsi.shinyapps.io/physaria_terraclimate_monthly_means/)
-
-<div style="
-  width: 90vw;
-  margin-left: calc(50% - 45vw);
-  height: 900px;
-">
-  <iframe
-    src="https://kuowenhsi.shinyapps.io/physaria_terraclimate_monthly_means/"
-    style="width: 100%; height: 100%; border: none;"
-  ></iframe>
+<section id="findings">
+<h2>Regional history matters—but risk is local</h2>
+<div class="research-grid">
+<div class="research-panel"><h3>Two major genetic groups</h3><p>Multiple analyses supported a northern Indiana–Kentucky group and a southern Tennessee group, with limited connectivity between them. Additional structure occurs within these regions.</p></div>
+<div class="research-panel"><h3>Uneven genetic vulnerability</h3><p>Some populations retain substantial variation; others show reduced diversity, recent bottlenecks, or elevated inbreeding. Conservation needs therefore differ among populations.</p></div>
 </div>
+<figure>
+<div class="physaria-tree"><img src="{{ '/assets/img/physaria-figure1-tree.png' | relative_url }}" alt="Neighbor-joining tree showing the main Indiana–Kentucky and Tennessee population groups in Physaria globosa, alongside related Physaria species." loading="lazy"></div>
+<figcaption><strong>Figure 1B · Genetic relationships among populations.</strong> This neighbor-joining tree uses Nei's genetic distances and is rooted with <em>P. gracilis</em>. IN and KY denote Indiana and Kentucky; TNE and TNW denote eastern and western Tennessee; TR denotes translocated populations. Together with the other analyses, the tree supports the major regional split. This is a genetic-distance tree, not an estimate of divergence dates. The original panel is rotated for easier reading.</figcaption>
+</figure>
+<p>Six populations, including one translocated population, showed evidence of recent bottlenecks. After accounting for null alleles in the markers, most populations showed little inbreeding, but several western Tennessee populations retained elevated estimates. These results argue for targeted monitoring rather than assuming that all populations face the same genetic risks.</p>
+</section>
 
+<section id="translocations">
+<h2>What can existing translocations teach us?</h2>
+<p>Both translocated populations showed genetic mixing, but their histories and outcomes differed. They also contained few private alleles—variants unique to a sampled population—highlighting the challenge of representing natural diversity in new populations.</p>
+<div class="research-grid">
+<div class="research-panel"><h3>Mixing within a region</h3><p>TR_01 was established from two Kentucky populations. Its genetic composition matched those sources, and it showed no detected bottleneck. Only a subset of sampled plants showed admixed ancestry; differences in introduction year and flowering schedules may have limited interbreeding.</p></div>
+<div class="research-panel"><h3>Mixing across regions</h3><p>TR_02 combined ancestry from the northern and southern groups. It demonstrated that plants from these regions can produce viable offspring, but it also showed a recent bottleneck and a deficit of rare alleles.</p></div>
+</div>
+<div class="research-note"><h3>Mixing is not the same as demonstrated genetic rescue</h3><p>The presence of mixed ancestry does not establish improved survival, reproduction, or long-term persistence. Controlled experiments are needed to test offspring performance and the consequences of crossing historically differentiated populations.</p></div>
+</section>
 
+<section id="management">
+<h2>Conservation guided by population history</h2>
+<ol>
+<li><strong>Protect natural populations across the range.</strong> Maintain representation within Indiana, Kentucky, eastern Tennessee, and western Tennessee, alongside habitat management and invasive-shrub control.</li>
+<li><strong>Prioritize the most vulnerable populations.</strong> Combine genetic indicators with demographic monitoring to identify where habitat restoration or augmentation may be warranted.</li>
+<li><strong>Choose translocation sources deliberately.</strong> Favor genetically informed mixing among populations within the same major regional group, especially where there is evidence of natural or recent gene flow.</li>
+<li><strong>Track outcomes after intervention.</strong> Document seed sources, retain broad genetic representation, consider flowering schedules, and monitor genetic and demographic change.</li>
+</ol>
+<h3>The next test: adaptation and fitness</h3>
+<p>Neutral microsatellite markers reveal structure and diversity, but do not directly measure adaptive differences or the fitness consequences of genetic mixing. Common-garden experiments, demographic data, and genome-scale analyses are needed to determine which interventions improve long-term persistence.</p>
+</section>
 
-<nav class="research-jump research-footer" aria-label="More projects"><a href="{{ "/projects/" | relative_url }}">← Current and Previous Projects</a></nav>
+<section id="climate">
+<h2>Explore the environmental context</h2>
+<p>The climate explorer compares monthly conditions among populations. Environmental differences can help frame hypotheses about local adaptation; they do not by themselves demonstrate that populations are locally adapted.</p>
+<p><a href="https://kuowenhsi.shinyapps.io/physaria_terraclimate_monthly_means/">Open the climate explorer in a full browser window →</a></p>
+<iframe class="physaria-climate" src="https://kuowenhsi.shinyapps.io/physaria_terraclimate_monthly_means/" title="Monthly climate comparison among Physaria globosa populations" loading="lazy"></iframe>
+</section>
+
+<section class="research-footer">
+<h2>About this study</h2>
+<p><strong>Manuscript:</strong> Range-wide population genetics reveals how disjunctions, admixture, and translocations influence conservation of <em>Physaria globosa</em> (Brassicaceae).</p>
+<p>Wen-Hsi Kuo, Clara Landon, Burgund Bassüner, Alexander G. Linan, Tara R. Littlefield, Matthew A. Albrecht, and Christine E. Edwards.</p>
+<p>This summary and Figure 1 are based on the October 12, 2026 manuscript. My contributions included data analysis, visualization, and manuscript writing.</p>
+<nav class="research-jump" aria-label="More projects"><a href="{{ '/projects/' | relative_url }}">← Current and Previous Projects</a></nav>
+</section>
+</div>
