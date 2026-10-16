@@ -23,6 +23,8 @@
 .research-page .research-note p { margin-bottom: 0; }
 .research-page .research-project { display: block; color: var(--global-text-color); text-decoration: none; border: 1px solid var(--global-divider-color); border-radius: 12px; overflow: hidden; background: var(--global-card-bg-color); }
 .research-page .research-project img { display: block; width: 100%; height: auto; }
+.research-page .research-project .research-card-photo { aspect-ratio: 4 / 3; object-fit: cover; object-position: center 10%; }
+.research-page .research-photo-credit { margin: .5rem .2rem 0; font-size: .75rem; line-height: 1.5; color: var(--global-text-color-light); }
 .research-page .research-project-body { padding: 1.4rem; }
 .research-page .research-project:hover, .research-page .research-project:focus-visible { border-color: var(--global-theme-color); }
 .research-page .research-project .research-link { color: var(--global-theme-color); font-weight: 600; }

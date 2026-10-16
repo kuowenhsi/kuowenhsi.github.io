@@ -1,8 +1,12 @@
 ---
 layout: page
-title: Genetic evidence for globe bladderpod conservation
+title: When should we move plants—and mix populations?
 description: How regional genetic structure can guide conservation and translocation of endangered globe bladderpod.
 img: assets/img/physaria-figure1-habitat.jpg
+card_img: assets/img/physaria-globosa-flowers.jpg
+card_img_alt: Yellow flowers and green buds of Physaria globosa (globe bladderpod).
+card_img_credit: John MacGregor, Kentucky Department of Fish and Wildlife Resources · USFWS / public domain
+card_img_source: https://commons.wikimedia.org/wiki/File:Short%27s_bladderpod_(14288803541).jpg
 importance: 3
 category: research
 research_group: current_previous
@@ -13,7 +17,7 @@ _styles: |
 <div class="research-page">
 <section class="research-intro" aria-labelledby="conservation-question">
 <p class="research-kicker">Conservation genetics · Physaria globosa</p>
-<h2 id="conservation-question">When should we move plants—and mix populations?</h2>
+<h2 id="conservation-question">Genetic evidence for globe bladderpod conservation</h2>
 <p class="research-lead">Genetic mixing may help vulnerable populations, but the choice of source populations matters.</p>
 <p>Our range-wide study of endangered globe bladderpod found two major regional genetic groups and uneven genetic vulnerability among populations. The findings support protecting natural populations while using carefully planned translocations to complement habitat conservation.</p>
 </section>

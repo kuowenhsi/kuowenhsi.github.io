@@ -30,9 +30,13 @@ _styles: |
 <div class="research-grid">
 {% assign existing_projects = site.projects | where: "research_group", "current_previous" | sort: "importance" %}
 {% for project in existing_projects %}
+<div>
 <a class="research-project" href="{{ project.url | relative_url }}">
+{% if project.card_img %}<img class="research-card-photo" src="{{ project.card_img | relative_url }}" alt="{{ project.card_img_alt | escape }}" loading="lazy" width="921" height="1200">{% endif %}
 <div class="research-project-body"><h3>{{ project.title }}</h3><p>{{ project.description | markdownify | remove: '<p>' | remove: '</p>' }}</p><span class="research-link">Read about this project →</span></div>
 </a>
+{% if project.card_img_credit %}<p class="research-photo-credit">Photo: <a href="{{ project.card_img_source }}">{{ project.card_img_credit }}</a></p>{% endif %}
+</div>
 {% endfor %}
 </div>
 </section>
