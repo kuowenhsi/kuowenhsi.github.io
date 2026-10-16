@@ -1,16 +1,13 @@
 ---
 layout: page
-title: Active Interventions in Plant Conservation?
+title: Genetic evidence for globe bladderpod conservation
 description: How regional genetic structure can guide conservation and translocation of endangered globe bladderpod.
-img: assets/img/crop_IMG_6647.jpeg
+img: assets/img/physaria-figure1-habitat.jpg
 importance: 3
 category: research
 research_group: current_previous
 _styles: |
   @import url("/assets/css/research.css");
-  .physaria-tree { position: relative; width: 100%; aspect-ratio: 1050 / 600; background: white; overflow: hidden; }
-  .research-page .physaria-tree img { position: absolute; width: 57.142857%; max-width: none; height: auto; left: 50%; top: 50%; transform: translate(-50%, -50%) rotate(-90deg); border-radius: 0; }
-  .physaria-climate { display: block; width: 100%; height: 720px; border: 1px solid var(--global-divider-color); border-radius: 12px; }
 ---
 
 <div class="research-page">
@@ -27,7 +24,7 @@ _styles: |
 <p><em>Physaria globosa</em> is a federally endangered mustard found in separated river systems in Indiana, Kentucky, and Tennessee. It grows on rocky bluffs and steep slopes, often on calcareous substrates, and produces yellow spring flowers followed by rounded fruits.</p>
 <p>Habitat degradation, erosion, and encroachment by woody plants—including invasive shrubs—threaten these populations. Their scattered distribution raises a practical question: should conservation maintain regional differences, restore connectivity, or do both?</p>
 <figure>
-<img src="{{ '/assets/img/physaria-figure1-habitat.jpg' | relative_url }}" alt="Flowering Physaria globosa growing in crevices on a layered rocky bluff." loading="lazy">
+<img src="{{ '/assets/img/physaria-figure1-habitat.jpg' | relative_url }}" alt="Flowering Physaria globosa growing in crevices on a layered rocky bluff." width="3024" height="4032" loading="lazy">
 <figcaption><strong>Figure 1A · Life on a rocky bluff.</strong> The manuscript's native-habitat photograph shows the steep, rocky setting occupied by <em>P. globosa</em>. Such habitats can make monitoring, seed collection, and management difficult.</figcaption>
 </figure>
 <h3>A range-wide genetic assessment</h3>
@@ -45,8 +42,10 @@ _styles: |
 <div class="research-panel"><h3>Uneven genetic vulnerability</h3><p>Some populations retain substantial variation; others show reduced diversity, recent bottlenecks, or elevated inbreeding. Conservation needs therefore differ among populations.</p></div>
 </div>
 <figure>
-<div class="physaria-tree"><img src="{{ '/assets/img/physaria-figure1-tree.png' | relative_url }}" alt="Neighbor-joining tree showing the main Indiana–Kentucky and Tennessee population groups in Physaria globosa, alongside related Physaria species." loading="lazy"></div>
-<figcaption><strong>Figure 1B · Genetic relationships among populations.</strong> This neighbor-joining tree uses Nei's genetic distances and is rooted with <em>P. gracilis</em>. IN and KY denote Indiana and Kentucky; TNE and TNW denote eastern and western Tennessee; TR denotes translocated populations. Together with the other analyses, the tree supports the major regional split. This is a genetic-distance tree, not an estimate of divergence dates. The original panel is rotated for easier reading.</figcaption>
+<a href="{{ '/assets/img/physaria-figure2-map.png' | relative_url }}" aria-label="Open Figure 2 population map at full resolution">
+<img src="{{ '/assets/img/physaria-figure2-map.png' | relative_url }}" alt="Map of sampled Physaria globosa populations across Indiana, Kentucky, and Tennessee, with pie charts showing genetic ancestry at K equals 3. Northern populations are predominantly blue, Tennessee populations predominantly green and orange, and TR_02 contains ancestry from both regions." width="9000" height="7200" loading="lazy">
+</a>
+<figcaption><strong>Figure 2 · Genetic variation across the landscape.</strong> Pie charts show population structure at K = 3; their sizes reflect the number of plants sampled. The background shows human footprint, with rivers in blue. IN and KY identify Indiana and Kentucky populations; TNE and TNW identify eastern and western Tennessee populations; TR identifies translocated populations. The map illustrates finer-scale structure within the two main regional groups and mixed ancestry in translocated populations. <a href="{{ '/assets/img/physaria-figure2-map.png' | relative_url }}">Open the full-resolution map</a>.</figcaption>
 </figure>
 <p>Six populations, including one translocated population, showed evidence of recent bottlenecks. After accounting for null alleles in the markers, most populations showed little inbreeding, but several western Tennessee populations retained elevated estimates. These results argue for targeted monitoring rather than assuming that all populations face the same genetic risks.</p>
 </section>
@@ -73,18 +72,11 @@ _styles: |
 <p>Neutral microsatellite markers reveal structure and diversity, but do not directly measure adaptive differences or the fitness consequences of genetic mixing. Common-garden experiments, demographic data, and genome-scale analyses are needed to determine which interventions improve long-term persistence.</p>
 </section>
 
-<section id="climate">
-<h2>Explore the environmental context</h2>
-<p>The climate explorer compares monthly conditions among populations. Environmental differences can help frame hypotheses about local adaptation; they do not by themselves demonstrate that populations are locally adapted.</p>
-<p><a href="https://kuowenhsi.shinyapps.io/physaria_terraclimate_monthly_means/">Open the climate explorer in a full browser window →</a></p>
-<iframe class="physaria-climate" src="https://kuowenhsi.shinyapps.io/physaria_terraclimate_monthly_means/" title="Monthly climate comparison among Physaria globosa populations" loading="lazy"></iframe>
-</section>
-
 <section class="research-footer">
 <h2>About this study</h2>
 <p><strong>Manuscript:</strong> Range-wide population genetics reveals how disjunctions, admixture, and translocations influence conservation of <em>Physaria globosa</em> (Brassicaceae).</p>
 <p>Wen-Hsi Kuo, Clara Landon, Burgund Bassüner, Alexander G. Linan, Tara R. Littlefield, Matthew A. Albrecht, and Christine E. Edwards.</p>
-<p>This summary and Figure 1 are based on the October 12, 2026 manuscript. My contributions included data analysis, visualization, and manuscript writing.</p>
+<p>This summary is based on the October 12, 2026 manuscript. My contributions included data analysis, visualization, and manuscript writing.</p>
 <nav class="research-jump" aria-label="More projects"><a href="{{ '/projects/' | relative_url }}">← Current and Previous Projects</a></nav>
 </section>
 </div>
