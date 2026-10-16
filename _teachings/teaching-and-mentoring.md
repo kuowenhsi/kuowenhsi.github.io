@@ -12,4 +12,6 @@ I have taught evolutionary biology, general biology, and botany lab as a discuss
 
 My mentoring style changes with student stage. For undergraduates, I emphasize exploration, research literacy, teamwork, time management, and communication. For master's students, I focus on developing feasible thesis projects and building professional research skills. For doctoral students, I aim to foster independence, originality, and ownership of the full research process, from proposal development through publication.
 
-To date, I have mentored 17 undergraduate and graduate researchers in Taiwan and the United States. Several mentees have contributed to peer-reviewed publications, one undergraduate mentee won a competitive research grant, and two graduate mentees completed M.S. degrees at National Taiwan University.
+To date, I have mentored 18 undergraduate and graduate researchers in Taiwan and the United States. Eight mentees earned co-authorship on peer-reviewed publications during my M.S. and Ph.D. training. One undergraduate mentee received a competitive research grant, five students received NSF REU funding at the Missouri Botanical Garden, and two graduate mentees completed M.S. degrees at National Taiwan University.
+
+[Read my updated teaching approach and mentoring philosophy]({{ "/teaching/" | relative_url }}).
