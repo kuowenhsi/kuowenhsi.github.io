@@ -12,6 +12,7 @@
 .research-page .research-panel { padding: 1.4rem; border: 1px solid var(--global-divider-color); border-radius: 12px; background: var(--global-card-bg-color); }
 .research-page .research-panel p:last-child { margin-bottom: 0; }
 .research-page figure { width: 100%; margin: 1.8rem 0 2.3rem; }
+.research-page figure.research-figure-compact { max-width: 420px; margin-left: auto; margin-right: auto; }
 .research-page figure img { display: block; width: 100%; max-width: 100%; height: auto; border-radius: 12px; }
 .research-page figcaption { font-size: .8rem; line-height: 1.55; color: var(--global-text-color-light); margin-top: .65rem; }
 .research-page .research-steps { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0; }

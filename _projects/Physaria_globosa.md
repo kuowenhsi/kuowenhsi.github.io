@@ -27,7 +27,7 @@ _styles: |
 <h2>A rare plant of rocky river bluffs</h2>
 <p><em>Physaria globosa</em> is a federally endangered mustard found in separated river systems in Indiana, Kentucky, and Tennessee. It grows on rocky bluffs and steep slopes, often on calcareous substrates, and produces yellow spring flowers followed by rounded fruits.</p>
 <p>Habitat degradation, erosion, and encroachment by woody plants—including invasive shrubs—threaten these populations. Their scattered distribution raises a practical question: should conservation maintain regional differences, restore connectivity, or do both?</p>
-<figure>
+<figure class="research-figure-compact">
 <img src="{{ '/assets/img/physaria-figure1-habitat.jpg' | relative_url }}" alt="Flowering Physaria globosa growing in crevices on a layered rocky bluff." width="3024" height="4032" loading="lazy">
 <figcaption><strong>Figure 1A · Life on a rocky bluff.</strong> The manuscript's native-habitat photograph shows the steep, rocky setting occupied by <em>P. globosa</em>. Such habitats can make monitoring, seed collection, and management difficult.</figcaption>
 </figure>
